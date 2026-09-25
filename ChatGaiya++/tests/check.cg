@@ -1,0 +1,12 @@
+kotha word = "Chatgaiya";
+ongko i = 0;
+zotokkhon (i < 3) {
+    ko(word[i]);
+    i++;
+}
+ho good = hasa;
+zodi (good) {
+    ko("ok");
+} noile {
+    ko("bad");
+}

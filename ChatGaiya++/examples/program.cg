@@ -1,0 +1,44 @@
+shuru_kor;
+
+kotha name = "Nafi";
+kotha language = "Chatgaiya++";
+kotha university = "Leading University";
+
+ko("Name: " + name);
+ko("Language: " + language);
+ko("University: " + university);
+
+kotha first = "Hello";
+kotha second = "World";
+
+kotha message = first + " " + second;
+
+ko("Message: " + message);
+
+kotha course = "Compiler Design";
+ko("Course: " + course);
+
+ongko length = 10;
+ko("Length value: " + length);
+
+kotha word = "Chatgaiya";
+
+ko("First character: " + word[0]);
+ko("Second character: " + word[1]);
+ko("Third character: " + word[2]);
+
+zodi (name == "Nafi") {
+    ko("Name matched successfully.");
+} tokon {
+    ko("Name did not match.");
+}
+
+kotha part1 = "I am";
+kotha part2 = "learning";
+kotha part3 = "Chatgaiya++";
+
+kotha sentence = part1 + " " + part2 + " " + part3;
+
+ko(sentence);
+
+ko("Program completed.");
