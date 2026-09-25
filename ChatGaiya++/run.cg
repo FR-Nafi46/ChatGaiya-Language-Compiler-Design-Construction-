@@ -1,0 +1,17 @@
+ho ok = hasa;
+ongko i = 1;
+
+zotokkhon(ok){
+    zodi (i > 5){
+        ok = misa;
+    }
+    tokon zodi (i % 2 == 0){
+        ko("Zur Songkha");
+    }
+    tokon {
+        ko("BiZur Songkha");
+    }
+    i++;
+}
+
+ko(ki_type(i));
