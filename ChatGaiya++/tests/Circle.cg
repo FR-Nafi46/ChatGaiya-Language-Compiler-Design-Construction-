@@ -1,0 +1,5 @@
+dhoshomik pi = 3.1416;
+ongko r = lo();
+ko("Area of the Circle is: ");
+dhoshomik res = pi * r * 2;
+ko(res);
