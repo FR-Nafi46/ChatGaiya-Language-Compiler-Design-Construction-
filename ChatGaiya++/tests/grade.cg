@@ -1,0 +1,35 @@
+ongko marks = 55;
+
+zodi (marks >= 80 && marks <= 100){
+    ko("A+");
+}
+noile zodi (marks >= 75){
+    ko("A");
+}
+noile zodi (marks >= 70){
+    ko("A-");
+}
+noile zodi (marks >= 65){
+    ko("B+");
+}
+noile zodi (marks >= 60){
+    ko("B");
+}
+noile zodi (marks >= 55){
+    ko("B-");
+}
+noile zodi (marks >= 50){
+    ko("C+");
+}
+noile zodi (marks >= 45){
+    ko("C");
+}
+noile zodi (marks >= 40){
+    ko("D");
+}
+noile zodi (marks >= 0){
+    ko("F");
+}
+noile {
+    ko("Invalid Marks");
+}
